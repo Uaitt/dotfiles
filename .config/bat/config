@@ -2,4 +2,4 @@
 --theme="Visual Studio Dark+"
 
 # Remove grid layout, show only numbers and changes
---style="numbers, changes"
+--style="numbers,changes"
