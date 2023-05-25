@@ -1,0 +1,7 @@
+[user]
+	name = Lorenzo Zabot
+	email = lorenzozabot@gmail.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
