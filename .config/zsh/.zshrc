@@ -5,6 +5,8 @@ PS1='%m %1d $ '
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+fpath+=($ZDOTDIR/plugis/zsh-completions/src)
+
 # Autocompletion
 autoload -Uz compinit
 _comp_options+=(globdots);
@@ -26,8 +28,6 @@ autoload -Uz colors && colors
 
 # Plugins
 source $ZDOTDIR/user/packages.sh
-
 zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 zsh_add_plugin "zsh-users/zsh-autosuggestions"
-zsh_add_plugin "zsh-users/zsh-completions"
 zsh_add_plugin "agkozak/zsh-z"
