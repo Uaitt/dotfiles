@@ -1,5 +1,5 @@
 # Shamelessly stolen from:
-# https://github.com/Mach-OS/Machfiles/blob/master/zsh/.config/zsh/zsh-functions
+# https://github.com/prdanelli/dotfiles/blob/main/zsh/user/packages.sh
 
 # Function to source config files if they exist
 # Usage: zsh_add_config "zsh-prompt"
