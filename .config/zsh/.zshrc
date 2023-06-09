@@ -31,3 +31,7 @@ zsh_add_file $ZDOTDIR/user/aliases.sh
 zsh_add_file $ZDOTDIR/user/export.sh
 
 eval "$(rbenv init -)"
+
+# Commands to restore Mac wifi when it's going slow
+# networksetup -setairportpower en0 off
+# networksetup -setairportpower en0 on
