@@ -29,6 +29,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # Additional files
 zsh_add_file $ZDOTDIR/user/aliases.sh
 zsh_add_file $ZDOTDIR/user/export.sh
+zsh_add_file $ZDOTDIR/user/secrets.sh
 
 eval "$(rbenv init -)"
 
