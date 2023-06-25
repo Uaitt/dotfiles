@@ -1,6 +1,3 @@
-# Prompt
-PS1='%m %1d $ '
-
 # Autocompletion
 autoload -Uz compinit
 _comp_options+=(globdots);
@@ -13,9 +10,6 @@ SAVEHIST=1000000
 
 # Options
 setopt INC_APPEND_HISTORY_TIME INTERACTIVE_COMMENTS
-
-# Colors
-autoload -Uz colors && colors
 
 # Plugins
 source $ZDOTDIR/user/packages.sh
@@ -30,9 +24,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 zsh_add_file $ZDOTDIR/user/aliases.sh
 zsh_add_file $ZDOTDIR/user/export.sh
 zsh_add_file $ZDOTDIR/user/secrets.sh
+zsh_add_file $ZDOTDIR/user/prompt.sh
 
 eval "$(rbenv init -)"
-
-# Commands to restore Mac wifi when it's going slow
-# networksetup -setairportpower en0 off
-# networksetup -setairportpower en0 on

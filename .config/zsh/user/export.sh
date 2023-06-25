@@ -1,4 +1,4 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 
-export EDITOR="nvim"
+export EDITOR="code"
 export TERMINAL="wezterm"
