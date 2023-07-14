@@ -9,8 +9,8 @@ end)
 
 -- Appearance
 config.color_scheme = 'Dark+'
-config.font_size = 13
+config.font_size = 13.5
 config.harfbuzz_features = { 'calt = 0', 'clig = 0', 'liga = 0' }
 config.enable_scroll_bar = true
-
+config.font = wezterm.font('FiraCode Nerd Font')
 return config
