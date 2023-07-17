@@ -8,9 +8,10 @@ wezterm.on('gui-startup', function(cmd)
 end)
 
 -- Appearance
-config.color_scheme = 'Dark+'
+config.color_scheme = 'Everforest Dark (Gogh)'
 config.font_size = 13.5
-config.harfbuzz_features = { 'calt = 0', 'clig = 0', 'liga = 0' }
-config.enable_scroll_bar = true
 config.font = wezterm.font('FiraCode Nerd Font')
+config.harfbuzz_features = { 'calt = 0', 'clig = 0', 'liga = 0' } -- no ligatures
+config.enable_scroll_bar = true
+config.hide_tab_bar_if_only_one_tab = true
 return config
