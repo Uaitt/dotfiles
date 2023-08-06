@@ -7,11 +7,16 @@ wezterm.on('gui-startup', function(cmd)
   window:gui_window():maximize()
 end)
 
--- Appearance
+-- Colorscheme
 config.color_scheme = 'Everforest Dark (Gogh)'
+
+-- Fonts
 config.font_size = 13.5
 config.font = wezterm.font('FiraCode Nerd Font')
 config.harfbuzz_features = { 'calt = 0', 'clig = 0', 'liga = 0' } -- no ligatures
+
+-- Bars
 config.enable_scroll_bar = true
 config.hide_tab_bar_if_only_one_tab = true
+
 return config
