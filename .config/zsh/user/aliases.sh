@@ -4,3 +4,4 @@ alias grep="grep --color=auto"
 
 alias be="bundle exec"
 alias rc="bin/rails c"
+alias rs="bin/rails s"
