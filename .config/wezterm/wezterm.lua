@@ -3,20 +3,21 @@ local config = {}
 
 -- Maximize window on GUI startup
 wezterm.on('gui-startup', function(cmd)
-  local tab, pane, window = wezterm.mux.spawn_window(cmd or {})
+  local _, _, window = wezterm.mux.spawn_window(cmd or {})
   window:gui_window():maximize()
 end)
 
 -- Colorscheme
-config.color_scheme = 'Everforest Dark (Gogh)'
+config.color_scheme = "Everforest Dark"
 
 -- Fonts
-config.font_size = 13.5
+config.font_size = 12
 config.font = wezterm.font('FiraCode Nerd Font')
 config.harfbuzz_features = { 'calt = 0', 'clig = 0', 'liga = 0' } -- no ligatures
 
--- Bars
-config.enable_scroll_bar = true
+-- Appearance 
 config.hide_tab_bar_if_only_one_tab = true
+config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 
 return config
+
