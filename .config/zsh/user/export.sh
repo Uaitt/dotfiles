@@ -1,4 +1,4 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 
-export EDITOR="code"
-export TERMINAL="wezterm"
+export EDITOR="code --wait"
+export TERMINAL="kitty"
