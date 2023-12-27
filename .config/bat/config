@@ -1,5 +1,5 @@
 # Theme
---theme="Visual Studio Dark+"
+--theme="OneHalfDark"
 
 # Remove grid layout, show only numbers and changes
 --style="numbers,changes"
