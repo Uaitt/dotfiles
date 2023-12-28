@@ -26,7 +26,7 @@ zsh_add_file $ZDOTDIR/user/secrets.sh
 source $ZDOTDIR/user/theme.sh
 
 # Evals
-eval "$(rbenv init -)"
+eval "$(~/.rbenv/bin/rbenv init - zsh)"
 
 # Dotfiles alias
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
