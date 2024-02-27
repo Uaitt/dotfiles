@@ -1,0 +1,13 @@
+# Layouts
+layouts:
+  - tall
+  - fullscreen
+  - two-pane
+
+# Float apps
+floating:
+  - com.apple.systempreferences
+
+# Miscellaneous
+mouse-resizes-windows: true
+enables-layout-hud-on-space-change: false
