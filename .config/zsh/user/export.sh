@@ -1,2 +1,2 @@
-export EDITOR="code --wait"
+export EDITOR="nvim"
 export TERMINAL="kitty"
